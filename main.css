@@ -32,6 +32,7 @@ h1 {
 .profile {
     max-width: 15%;
     max-height: 15%;
+    margin: 75px 60px 0px 0px;
     border: 10px solid rgba(255, 255, 255, 0.2);
     border-radius: 50% !important;
     float: right;
