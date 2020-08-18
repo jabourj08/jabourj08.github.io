@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <TITLE>Joshua Jabour - Professional Portfolio</TITLE>
+    <link rel="stylesheet" href="main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+</HEAD>
+
+
+<BODY>
+
+    <div class="outerbox">
+        <header>
+            <center>
+                <Nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html" class="activePage">About Me</a></li>
+                        <li><a href="portfolio.html">My Portfolio</a></li>
+                    </ul>
+                </Nav>
+            </center>
+        </header>
+        <h1 class="headline">About <span id="headline">Me</span></h1>
+        <center>
+            <p class="item">
+                I grew up in the city of Sterling Heights, MI where I started school in the Utica school district. In the 3rd grade, my family and I moved not too far away in Sterling Heights, putting me in the Warren school district where I completed 4th through 7th
+                grade. After the 7th grade, my family and I moved to Washington Township where I finished out grade school in Romeo (2008). From there I have moved several more times over the years, finally landing in Clinton Township where I reside today.
+                During that time, I have obtained an Associate Degree of Applied Science with the focus in Web Development.
+            </p>
+            <p class="item">
+                <b>My Interests</b><br><br> All growing up I played a mixture of hardball and softball for 16 years. Baseball has been the only physical sport I have played other than Bowling (which I played on several teams throughout the years). Currently
+                I have been enjoying playing Golf with friends, although my scores are not the best. Aside from sports, I enjoy going to EDM shows in various places including music festivals (Yes, I have Robot ears).
+            </p>
+            <p class="item">
+                <b>Location</b><br><br>
+                <span id="map"></span>
+
+                <script>
+                    function initMap() {
+                        var location = {
+                            lat: 42.331429,
+                            lng: -83.045753
+                        };
+                        var map = new google.maps.Map(document.getElementById("map"), {
+                            zoom: 12,
+                            center: location
+                        });
+                        var marker = new google.maps.Marker({
+                            position: location,
+                            map: map
+                        });
+                    }
+                </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-aneRYm5VAr2p_WisTfIwYMG8RYsojd8&callback=initMap"></script>
+            </p>
+        </center>
+        <footer>
+            <center>
+                <div>
+                    <p>Website Created by Joshua Jabour in 2020</p>
+                </div>
+            </center>
+        </footer>
+    </div>
+
+</BODY>
+
+</HTML>
