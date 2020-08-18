@@ -38,7 +38,7 @@ h1 {
     float: right;
 }
 
-a {
+.regularLinks {
     color: rgb(156, 102, 0);
     text-decoration: underline;
 }
