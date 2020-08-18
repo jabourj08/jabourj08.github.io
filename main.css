@@ -43,7 +43,7 @@ h1 {
     text-decoration: underline;
 }
 
-a:hover {
+.regularLinks:hover {
     color: rgb(129, 84, 0);
     text-decoration: none;
 }
