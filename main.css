@@ -38,6 +38,16 @@ h1 {
     float: right;
 }
 
+a {
+    color: rgb(156, 102, 0);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(129, 84, 0);
+    text-decoration: none;
+}
+
 @keyframes mymove {
     from {
         left: 0px;
