@@ -1,0 +1,26 @@
+#: locale=en
+
+## Tour
+
+### Description
+
+### Title
+tour.name = Untitled 1
+
+## Media
+
+### Title
+panorama_2FE71D81_261A_1F2F_41BE_02B3CF385383.label = Demo 1 OUAT
+panorama_31021E8E_2F91_CE77_41CE_FEF9E95DF63B.label = Snow Scan
+photo_2806D6B6_263E_0D55_41B4_FF70B4DAE962.label = IMG_8894
+video_2857DAEE_263E_1AF5_41C0_0BF07010FEC4.label = IMG_8765
+
+## Popup
+
+### Body
+htmlText_292033AF_263E_0B73_41B0_23A70C68CDFC.html = <div style="text-align:left; color:#000; "><HTML><BODY><DIV STYLE="text-align:center;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:16px;font-family:Arial, Helvetica, sans-serif;"><B>Must Be Way To Turn This On... mhmmmm</B></SPAN></DIV></BODY></HTML></div>
+
+## Hotspot
+
+### Tooltip
+HotspotPanoramaOverlayArea_2BE34593_262A_0F53_41C0_4C2F3F1248D5.toolTip = Interact

@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile escape/jabourj/.htpasswd
-require valid-user
